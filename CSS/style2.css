@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    /* background-color: transparent; */
+    background-color: white;
+    width: 100%;
+    padding: 30px 0;
+    top: 0;
+    z-index: 10;
+    
+}
+.inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo{
+   font-size: 30px; 
+   font-weight: 90;
+   font-family: 'Great Vibes',sans-serif;
+   color: #222222;
+   cursor: pointer;
+}
+.navbar-menu{
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* margin-left: 35px; */
+    display: flex;
+    justify-content: space-between;  
+}
+.navbar-menu a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.8px;
+    background-color: #de6900;
+    transition: width .3s;
+}
+.navbar-menu a:hover::after{
+    width: 100%;
+}
+body{
+    background-color: #f2f2f2;
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+    margin-top: 150px;
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #de6900;
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px 20px;
+    /* margin-top: 350px; */
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image:hover{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}
+
+.about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    gap: 7.8rem;
+}
+.about2-image{
+    flex: 1;
+    margin-right: -250px;
+    overflow: hidden;
+}
+.about2-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about2-image:hover{
+    transform: scale(1.2);
+}
+.about2-content{
+    flex: 1;
+}
+.about2-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about2-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}
+.about3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    gap: 0rem;
+}
+.about3-image{
+    flex: 1;
+    margin-right: -350px;
+    overflow: hidden;
+}
+.about3-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about3-image:hover{
+    transform: scale(1.2);
+}
+.about3-content{
+    flex: 1;
+}
+.about3-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about3-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}
+
+.video{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer{
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    /* padding-top: 400px; */
+    color: #fff;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+

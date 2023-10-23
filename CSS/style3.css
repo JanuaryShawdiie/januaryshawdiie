@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D8BFD8;
+}
+.navbar{
+    position: fixed;
+    /* background-color: transparent; */
+    background-color: white;
+    width: 100%;
+    padding: 30px 0;
+    top: 0;
+    z-index: 10;
+}
+.inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo{
+   font-size: 30px; 
+   font-weight: 90;
+   font-family: 'Great Vibes',sans-serif;
+   color: #222222;
+   cursor: pointer;
+}
+.navbar-menu{
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* margin-left: 35px; */
+    display: flex;
+    justify-content: space-between;  
+}
+.navbar-menu a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.8px;
+    background-color: #de6900;
+    transition: width .3s;
+}
+.navbar-menu a:hover::after{
+    width: 100%;
+}
+.container{
+   width: 70%; 
+   margin-top: 10em;
+   margin-bottom: 10em;
+   height: 80vh;
+   margin-left: 200px;
+   /* position: absolute; */
+   /* transform: translate(-50%,-50%); */
+   left: 50%;
+   overflow: hidden;
+   border: 20px solid #ffff;
+   border-radius: 8px;
+   box-shadow: 10px 25px 30px rgba(30, 30, 200, 0);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }   
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300);
+    }
+}
+img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    /* margin-top: 200px; */
+    position: absolute;
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    /* padding-top: 400px; */
+    color: #fff;
+}
+.footer-bottom2{
+    background: #000;
+    /* width: 100vw; */
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom2 p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    /* display: block; */
+}
+.footer-bottom2 span{
+    text-transform: uppercase;
+    /* opacity: .4; */
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
